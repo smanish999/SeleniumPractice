@@ -33,6 +33,7 @@ public class TestAlert {
 		WebDriverWait wait=new WebDriverWait(driver,5);
 		Alert alert=wait.until(ExpectedConditions.alertIsPresent());
 		alert.accept();
+		//This is check in test
 	}
 
 }
